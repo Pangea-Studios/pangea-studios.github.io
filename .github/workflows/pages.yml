@@ -15,7 +15,7 @@ jobs:
               uses: andstor/copycat-action@v3
               with:
                   personal_token: ${{ secrets.PERSONAL_TOKEN }}
-                  src_path: /.next/server/app/
+                  src_path: /.next/server/app/.
                   src_branch: main
                   dst_path: /.
                   dst_branch: gh-pages
