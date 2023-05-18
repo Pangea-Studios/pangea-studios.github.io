@@ -17,6 +17,7 @@ jobs:
                   personal_token: ${{ secrets.PERSONAL_TOKEN }}
                   src_path: /.next/server/app/
                   src_branch: main
+                  dst_path: /.
                   dst_branch: gh-pages
                   dst_owner: Pangea-Studios
                   dst_repo_name: pangea-studios.github.io
