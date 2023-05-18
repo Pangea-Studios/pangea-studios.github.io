@@ -1,11 +1,9 @@
-name: Docs References
+name: Pages
 
 on:
     push:
         branches:
             - main
-        paths:
-            - '.next/server/app/**'
 
 jobs:
     copy-file:
