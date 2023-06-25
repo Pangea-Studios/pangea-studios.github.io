@@ -2,12 +2,31 @@
     height: 100vh;
 }
 
+@keyframes growin {
+	from {
+		font-size: 0vw;
+	}
+	to {
+		font-size: 7vw;
+	}
+}
+
 .title {
     margin: 0;
     transform: translateY(40vh);
     font-size: 7vw;
     color: white;
     text-align: center;
+	animation: 2s growin;
+}
+
+@keyframes fadein {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
 }
 
 .subtitle {
@@ -16,6 +35,7 @@
     font-size: 3vw;
     color: white;
     text-align: center;
+	animation: 3s fadein;
 }
 
 .middle {
@@ -49,6 +69,12 @@
     margin-left: 25px;
 	transform: translateY(0.3vw);
 	margin-bottom: 1vh;
+}
+
+.card-links svg:hover {
+	cursor: pointer;
+	fill: #a8a8a8;
+	transition: 0.2s;
 }
 
 .card-top {
