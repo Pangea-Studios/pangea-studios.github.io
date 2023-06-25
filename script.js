@@ -8,7 +8,7 @@ window.addEventListener(
         );
 
 		if (window.scrollY /
-			(document.body.offsetHeight - window.innerHeight) === 1) {
+			(document.body.offsetHeight - window.innerHeight) >= 1) {
 			document.body.style.setProperty(
 				'--scroll',
 				0.9999,
