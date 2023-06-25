@@ -52,7 +52,7 @@
 	padding-right: 20px;
     background-color: rgb(40, 40, 40);
     border: 3px solid rgb(55, 55, 55);
-    border-radius: 3vh;
+    border-radius: 2vh;
 
 	animation: fadein 1s linear infinite;
 	animation-play-state: paused;
@@ -104,7 +104,7 @@
 .small-card {
 	background-color: rgb(30, 30, 30);
 	border: 3px solid rgb(55, 55, 55);
-	border-radius: 3vh;
+	border-radius: 1.5vh;
 	color: white;
 }
 
