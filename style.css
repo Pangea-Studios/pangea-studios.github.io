@@ -6,7 +6,7 @@ body {
 }
 
 .container {
-	background-color: rgb(48, 48, 48);
+	background-color: rgb(30, 30, 30);
 	font-family: 'Roboto', sans-serif;
 }
 
@@ -16,7 +16,7 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-	background: rgb(48, 48, 48);
+	background: rgb(30, 30, 30);
 }
 
 ::-webkit-scrollbar-thumb {
@@ -29,5 +29,5 @@ body {
 }
 
 ::-webkit-scrollbar-button {
-	background: rgb(48, 48, 48)
+	background: rgb(30, 30, 30)
 }

@@ -47,9 +47,11 @@
     margin-left: 15vw;
     margin-right: 15vw;
     width: 70vw;
-	padding-bottom: 4.5vh;
-    background-color: rgb(60, 60, 60);
-    border: 5px solid rgb(60, 60, 60);
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+    background-color: rgb(40, 40, 40);
+    border: 5px solid rgb(55, 55, 55);
     border-radius: 3vh;
 
 	animation: fadein 1s linear infinite;
@@ -88,9 +90,9 @@
 }
 
 .card-content {
-	margin-left: 5%;
+	margin-left: 0;
     height: 50%;
-    width: 90%;
+    width: 100%;
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto auto;
@@ -98,7 +100,8 @@
 }
 
 .small-card {
-	background-color: rgb(40, 40, 40);
+	background-color: rgb(30, 30, 30);
+	border: 5px solid rgb(55, 55, 55);
 	border-radius: 3vh;
 	color: white;
 }
