@@ -51,7 +51,7 @@
 	padding-left: 20px;
 	padding-right: 20px;
     background-color: rgb(40, 40, 40);
-    border: 5px solid rgb(55, 55, 55);
+    border: 3px solid rgb(55, 55, 55);
     border-radius: 3vh;
 
 	animation: fadein 1s linear infinite;
@@ -61,7 +61,7 @@
 
 
 .card-title {
-    margin-top: 3.5vh;
+    margin-top: 4vh;
     color: white;
     font-size: 4vw;
     width: 70%;
@@ -101,7 +101,7 @@
 
 .small-card {
 	background-color: rgb(30, 30, 30);
-	border: 5px solid rgb(55, 55, 55);
+	border: 3px solid rgb(55, 55, 55);
 	border-radius: 3vh;
 	color: white;
 }
