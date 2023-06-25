@@ -67,13 +67,14 @@
     width: 70%;
     display: block;
 	margin-bottom: 1vh;
+	transform: translateX(-5.3vw);
 }
 
 .card-links {
     display: block;
     margin-top: 3.5vh;
     margin-left: 25px;
-	transform: translateY(0.3vw);
+	transform: translateY(0.3vw) translateX(5.6vw);
 	margin-bottom: 1vh;
 }
 
