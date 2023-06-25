@@ -1,0 +1,108 @@
+.top {
+    height: 100dvh;
+}
+
+.title {
+    margin: 0;
+    transform: translateY(45dvh);
+    font-size: 10dvh;
+    color: white;
+    text-align: center;
+}
+
+.subtitle {
+    margin: 0;
+    transform: translateY(45dvh);
+    font-size: 4dvh;
+    color: white;
+    text-align: center;
+}
+
+.middle {
+    height: 100dvh;
+}
+
+.card {
+    margin-left: 15dvw;
+    margin-right: 15dvw;
+    width: 70dvw;
+    height: 80dvh;
+    background-color: rgb(60, 60, 60);
+    border: 5px solid rgb(60, 60, 60);
+    border-radius: 5vh;
+}
+
+.card-title {
+    margin-top: 20px;
+    margin-left: 25px;
+    color: white;
+    font-size: 8dvh;
+    width: 70%;
+    display: inline-block;
+}
+
+.card-links {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 25px;
+	transform: translateY(3dvh) translateX(5dvw);
+}
+
+.card-top {
+	transform: translateY(-2dvh);
+}
+
+.card-content {
+	margin-left: 5%;
+    height: 60%;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 3fr 3fr;
+	gap: 5px;
+}
+
+.small-card {
+	background-color: rgb(40, 40, 40);
+	border-radius: 5vh;
+	color: white;
+}
+
+.small-card h4 {
+	font-size: 3dvh;
+	transform: translateX(25px);
+}
+
+.small-card p {
+	margin-right: 50px;
+	font-size: 2.5dvh;
+	transform: translateX(25px);
+}
+
+.small-card-1 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.small-card-2 {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.small-card-3 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+.small-card-4 {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
