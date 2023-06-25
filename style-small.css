@@ -1,0 +1,9 @@
+.container {
+	display: none;
+}
+
+.small {
+	font-size: 10vw;
+	text-align: center;
+	justify-self: center;
+}
