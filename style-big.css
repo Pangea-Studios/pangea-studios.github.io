@@ -51,7 +51,12 @@
     background-color: rgb(60, 60, 60);
     border: 5px solid rgb(60, 60, 60);
     border-radius: 3vh;
+
+	animation: fadein 1s linear infinite;
+	animation-play-state: paused;
+	animation-delay: calc(var(--scroll) * -1s);
 }
+
 
 .card-title {
     margin-top: 20px;
