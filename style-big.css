@@ -91,6 +91,7 @@
 }
 
 .card-content {
+    margin-top: -1vh;
 	margin-left: 0;
     height: 50%;
     width: 100%;
