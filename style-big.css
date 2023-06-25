@@ -4,16 +4,16 @@
 
 .title {
     margin: 0;
-    transform: translateY(45vh);
-    font-size: 10vh;
+    transform: translateY(40vh);
+    font-size: 7vw;
     color: white;
     text-align: center;
 }
 
 .subtitle {
     margin: 0;
-    transform: translateY(45vh);
-    font-size: 4vh;
+    transform: translateY(40vh);
+    font-size: 3vw;
     color: white;
     text-align: center;
 }
@@ -30,14 +30,14 @@
 	padding-bottom: 10px;
     background-color: rgb(60, 60, 60);
     border: 5px solid rgb(60, 60, 60);
-    border-radius: 5vh;
+    border-radius: 3vh;
 }
 
 .card-title {
     margin-top: 20px;
     margin-left: 25px;
     color: white;
-    font-size: 5vw;
+    font-size: 4vw;
     width: 70%;
     display: block;
 	margin-bottom: 1vh;
@@ -69,7 +69,7 @@
 
 .small-card {
 	background-color: rgb(40, 40, 40);
-	border-radius: 5vh;
+	border-radius: 3vh;
 	color: white;
 }
 
