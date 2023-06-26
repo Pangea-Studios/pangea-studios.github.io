@@ -29,6 +29,24 @@
 	}
 }
 
+@keyframes slidein {
+	from {
+		transform: translateY(-100%);
+	}
+	to {
+		transform: translateX(0) translateY(0);
+	}
+}
+
+@keyframes rotate {
+	from {
+		transform: rotateX(0deg);
+	}
+	to {
+		transform: rotateX(20deg);
+	}
+}
+
 .subtitle {
     margin: 0;
     transform: translateY(40vh);
@@ -80,8 +98,8 @@
 
 .card-links svg:hover {
 	cursor: pointer;
-	fill: #a8a8a8;
 	transition: 0.2s;
+	transform: scale(1.2);
 }
 
 .card-top {
@@ -125,6 +143,7 @@
     grid-column-end: 1;
     grid-row-start: 1;
     grid-row-end: 1;
+	z-index: 2;
 }
 
 .small-card-2 {
@@ -132,6 +151,7 @@
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 1;
+	z-index: 2;
 }
 
 .small-card-3 {
@@ -139,6 +159,11 @@
     grid-column-end: 1;
     grid-row-start: 2;
     grid-row-end: 2;
+	z-index: 1;
+
+	animation: slidein 1s linear infinite;
+	animation-play-state: paused;
+	animation-delay: calc(var(--scroll) * -1s);
 }
 
 .small-card-4 {
@@ -146,6 +171,11 @@
     grid-column-end: 2;
     grid-row-start: 2;
     grid-row-end: 2;
+	z-index: 1;
+
+	animation: slidein 1s linear infinite;
+	animation-play-state: paused;
+	animation-delay: calc(var(--scroll) * -1s);
 }
 
 .small {
