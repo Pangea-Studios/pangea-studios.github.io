@@ -38,15 +38,6 @@
 	}
 }
 
-@keyframes rotate {
-	from {
-		transform: rotateX(0deg);
-	}
-	to {
-		transform: rotateX(20deg);
-	}
-}
-
 .subtitle {
     margin: 0;
     transform: translateY(40vh);
