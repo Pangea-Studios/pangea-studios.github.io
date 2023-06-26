@@ -13,7 +13,7 @@
 
 .title {
     margin: 0;
-    transform: translateY(40vh);
+    transform: translateY(30vh);
     font-size: 7vw;
     color: white;
     text-align: center;
@@ -29,18 +29,9 @@
 	}
 }
 
-@keyframes slidein {
-	from {
-		transform: translateY(-100%);
-	}
-	to {
-		transform: translateX(0) translateY(0);
-	}
-}
-
 .subtitle {
     margin: 0;
-    transform: translateY(40vh);
+    transform: translateY(30vh);
     font-size: 3vw;
     color: white;
     text-align: center;
@@ -65,7 +56,7 @@
 
 	animation: fadein 1s linear infinite;
 	animation-play-state: paused;
-	animation-delay: calc(var(--scroll) * -1s);
+	animation-delay: calc(var(--scroll) * -0.9s);
 }
 
 
@@ -151,10 +142,6 @@
     grid-row-start: 2;
     grid-row-end: 2;
 	z-index: 1;
-
-	animation: slidein 1s linear infinite;
-	animation-play-state: paused;
-	animation-delay: calc(var(--scroll) * -1s);
 }
 
 .small-card-4 {
@@ -163,10 +150,6 @@
     grid-row-start: 2;
     grid-row-end: 2;
 	z-index: 1;
-
-	animation: slidein 1s linear infinite;
-	animation-play-state: paused;
-	animation-delay: calc(var(--scroll) * -1s);
 }
 
 .small {
