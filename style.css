@@ -145,5 +145,7 @@ body {
 }
 
 #navbar a.responsive {
+    background-color: #363636;
+    z-index: 1003;
     float: right;
 }

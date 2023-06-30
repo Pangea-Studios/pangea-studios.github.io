@@ -33,3 +33,20 @@ function scrollToTop() {
       button.style.bottom = '-60vh'; // Position the button below the screen
     }
   }
+
+let e = false
+  function openNavbar() {
+    if (e = true) {
+        document.getElementsByClassName("navButton").style.display = "none";
+        document.getElementsByClassName("responsive").style.display = "block";
+        document.getElementsByClassName("active").style.float = "block";
+        document.getElementsByClassName("navButton").style.float = "left";
+        document.getElementsByClassName("responsive").style.float = "right";
+        e = false
+    } else if(e=false) {
+        document.getElementsByClassName("navButton").style.display = "block";
+        document.getElementsByClassName("navButton").style.float = "none";
+        document.getElementsByClassName("responsive").style.float = "right";
+        e = true
+    }
+  }
