@@ -160,3 +160,16 @@
 .back-to-top {
     display: none;
 }
+
+#navbar a.responsive {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: block;
+}
+
+#navbar a {
+    float: none;
+    display: block;
+    text-align: left;
+}

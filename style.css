@@ -143,3 +143,7 @@ body {
 	border-radius: 50%;
 	background-position: 0 0;
 }
+
+#navbar a.responsive {
+    float: right;
+}

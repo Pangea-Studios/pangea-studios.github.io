@@ -38,6 +38,8 @@
 	animation: 3s fadein;
 }
 
+
+
 .middle {
     height: 100vh;
 }
@@ -157,4 +159,9 @@
 
 .small {
 	display: none;
+}
+
+
+#navbar a.responsive {
+    display: none;
 }
