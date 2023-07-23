@@ -3,10 +3,11 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.home-container {
+  .home-container {
     width: 100%;
     display: flex;
-    overflow: auto;
+    overflow-x: hidden;
+    overflow-y: auto;
     min-height: 100vh;
     align-items: center;
     flex-direction: column;
@@ -26,6 +27,7 @@ body {
   }
   .home-image {
     height: 2rem;
+    margin-left: 32px;
   }
   .home-desktop-menu {
     flex: 1;
@@ -235,6 +237,7 @@ body {
     color: rgb(224, 224, 224);
     transition: 0.3s;
     margin-left: 32px;
+    margin-right: 40px;
     padding-top: 8px;
     padding-left: 8px;
     border-radius: 8px;
@@ -389,12 +392,19 @@ body {
     margin-bottom: 32px;
   }
   .home-button {
+    border: none;
     padding-top: 16px;
     padding-left: 32px;
     border-radius: 8px;
     padding-right: 32px;
     padding-bottom: 16px;
+    background-color: #e0e0e0;
+    transition-duration: 0.3s;
   }
+.home-button:hover {
+  background-color: #000000;
+  color: #fff;
+}
   .home-footer {
     width: 100%;
     display: flex;
