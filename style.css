@@ -1,6 +1,6 @@
 body {
   margin: 0px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: sans-serif;
 }
 
   .home-container {
@@ -43,6 +43,7 @@ body {
   }
   .home-text {
     color: #e0e0e0;
+    margin-left: 32px;
     padding: 8px;
     z-index: 1001;
     position: relative;
@@ -56,13 +57,13 @@ body {
     display: flex;
     background-color: #e0e0e0;
   }
-  .home-thq-dropdown {
+  .home--dropdown {
     cursor: pointer;
     display: inline-block;
     position: relative;
     border-radius: 8px;
   }
-  .home-thq-dropdown:hover {
+  .home--dropdown:hover {
     display: flex;
   }
   .home-dropdown-toggle {
@@ -76,6 +77,9 @@ body {
     padding-left: 16px;
     padding-right: 16px;
     padding-bottom: 8px;
+  }
+  .home-dropdown-toggle:hover .home-dropdown-list {
+    display: block;
   }
   .home-text01 {
     color: #e0e0e0;
@@ -220,36 +224,6 @@ body {
     display: flex;
     background-color: #D9D9D9;
   }
-  .home-text12 {
-    color: #e0e0e0;
-    padding: 8px;
-    transition: 0.3s;
-    margin-left: 32px;
-    border-radius: 8px;
-    transition-duration: 0.3s;
-  }
-  .home-text12:hover {
-    color: #000000;
-    display: flex;
-    background-color: #D9D9D9;
-  }
-  .home-text13 {
-    color: rgb(224, 224, 224);
-    transition: 0.3s;
-    margin-left: 32px;
-    margin-right: 40px;
-    padding-top: 8px;
-    padding-left: 8px;
-    border-radius: 8px;
-    padding-right: 8px;
-    padding-bottom: 8px;
-    transition-duration: 0.3s;
-  }
-  .home-text13:hover {
-    color: #000000;
-    display: flex;
-    background-color: #D9D9D9;
-  }
   .home-burger-menu {
     display: none;
   }
@@ -283,7 +257,8 @@ body {
     justify-content: space-between;
   }
   .home-logo {
-    height: 2rem;
+    height: 48px;
+    width: 144px;
   }
   .home-close-menu {
     display: flex;
@@ -451,6 +426,7 @@ body {
   }
   .home-text30 {
     color: #e0e0e0;
+    margin-left: 32px;
   }
   .home-icon-group1 {
     display: flex;
@@ -474,6 +450,7 @@ body {
     width: 24px;
     height: 24px;
     margin-left: 32px;
+    margin-right: 32px;
   }
   @media(max-width: 991px) {
     .home-text26 {
@@ -572,4 +549,3 @@ body {
       margin-bottom: 20px;
     }
   }
-  
