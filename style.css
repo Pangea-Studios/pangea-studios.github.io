@@ -34,14 +34,14 @@ body {
     display: flex;
     justify-content: space-between;
   }
-  .home-links {
+  .navbar-links {
     flex: 1;
     display: flex;
     align-items: center;
     flex-direction: row;
     justify-content: right;
   }
-  .home-text {
+  .navbar-text {
     color: #e0e0e0;
     margin-left: 32px;
     padding: 8px;
@@ -52,7 +52,7 @@ body {
     border-radius: 8px;
     transition-duration: 0.3s;
   }
-  .home-text:hover {
+  .navbar-text:hover {
     color: black;
     display: flex;
     background-color: #e0e0e0;
